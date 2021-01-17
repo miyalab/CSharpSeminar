@@ -20,8 +20,11 @@ namespace _02_ConsoleWriteValues
             Console.WriteLine(day);
             Console.WriteLine(week);
 
-            // 変数を参照して日付を表示
+            // 変数を参照して日付を表示 その1
             Console.WriteLine("{0}年{1}月{2}日{3}曜日", year, month, day, week);
+
+            // 変数を参照して日付を表示 その2
+            Console.WriteLine($"{year}年{month}月{day}日{week}曜日");
         }
     }
 }
