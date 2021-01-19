@@ -9,8 +9,10 @@ namespace _03_ConsoleRead
     {
         static void Main(string[] args)
         {
-            int inputChar;
-            string inputString;
+            // 昔はASCIIコードしかなかった．126種類の文字
+            char c;                 // 8 bit
+            int inputChar;          // 32 bit
+            string inputString;     // 16 x 文字数 bit
 
             // １行入力
             inputString = Console.ReadLine();

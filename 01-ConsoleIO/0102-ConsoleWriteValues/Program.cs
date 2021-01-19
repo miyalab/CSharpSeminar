@@ -13,7 +13,7 @@ namespace _02_ConsoleWriteValues
             int month = 1;
             int day = 18;
             string week = "月";
-
+            
             // 変数をそのまま表示
             Console.WriteLine(year);
             Console.WriteLine(month);
