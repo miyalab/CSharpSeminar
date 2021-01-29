@@ -21,10 +21,11 @@ namespace _01_ConsoleWrite
             // 改行あり 「\r\n」は改行コード
             Console.Write("Hello C# World!!\r\n");
 
+            //　マシンによって改行コードが異なる．
             // \n   : Linux, Mac
             // \r\n : Windows
 
-            // 「\〇」となっているものをエスケープシーケンス
+            // 「\〇」となっているものはエスケープシーケンス
         }
     }
 }
