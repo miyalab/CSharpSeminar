@@ -9,9 +9,9 @@ namespace _0203_Array
     {
         static void Main(string[] args)
         {
-            // 配列の宣言
-            int[] values = new int[3];
-
+            // 静的配列の宣言
+            int[] values = new int[5];
+            
             // 要素は0からスタート
             values[0] = 10;
             values[1] = 20;
@@ -20,8 +20,8 @@ namespace _0203_Array
             // 正しくできているか確認
             Console.WriteLine($"{values[0]},{values[1]},{values[2]}");
 
-            // 配列の要素数
-            Console.WriteLine($"{values.Length}");
+            // 配列の要素数 (変数名.Length)
+            Console.WriteLine($"要素数：{values.Length}");
         }
     }
 }

@@ -6,7 +6,7 @@ namespace _0401_for
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for
         }
     }
 }
