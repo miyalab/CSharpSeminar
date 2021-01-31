@@ -10,7 +10,7 @@ namespace _0403_while
         static void Main(string[] args)
         {
             int i = 5;
-            while(i < 10)
+            while (i < 10)
             {
                 Console.WriteLine(i);
                 i = i + 1;
